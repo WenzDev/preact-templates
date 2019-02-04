@@ -1,0 +1,53 @@
+.headroom {
+    top: 0;
+    left: 0;
+    right: 0;
+    zIndex: 1;
+    color: orange;
+    width: 100%;
+    position: fixed;
+}
+.headroom--unfixed {
+    position: relative;
+    width: 100%;
+    transform: translateY(0);
+}
+.headroom--scrolled {
+    transition: transform 200ms ease-in-out;
+}
+.headroom--unpinned {
+    position: fixed;
+    transform: translateY(-100%);
+}
+.headroom--pinned {
+    position: fixed;
+    transform: translateY(0%);
+}
+h1 {
+    background-color: transparent;
+    color: black;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    overflow: hidden;
+    width: 100%;
+}
+.topnav a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+}
+.right {
+    float: right;
+}
+.left {
+    float: left;
+    font-size: 15px;
+}
+.left a {
+    color: white;
+    font-size: 50px;
+}
