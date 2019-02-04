@@ -1,0 +1,81 @@
+.card {
+    /* Add shadows to create the "card" effect */
+    transition: 0.3s;
+    padding-right: 15px;
+    width: 100%;
+    margin: 2px;
+    float: left;
+    resize: none;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border-radius: 25px;
+
+}
+.card::after {
+    clear: both;
+    display: table;
+}
+.menu {
+    height: 100%;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+}
+.cardimg {
+    max-width: 100%;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: row;
+}
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 3rem;
+}
+.contactinput {
+    border-radius: 25px;
+    display: flex;
+    margin-top: 70px;
+    padding: 16px;
+    flex-wrap: inherit;
+    width: 100%;
+    box-sizing: padding-box;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.contactinput::placeholder {
+    font-size: 1.2em;
+}
+.padding {
+    padding-top: 15px;
+}
+.btn {
+    color: black;
+    width: 50%;
+    margin-top: 45px;
+    background-color: #039be5;
+    padding: 25px;
+    font-family: inherit;
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: normal;
+    border: 0;
+    border-radius: 0.4rem;
+    box-shadow: -1px 1px 8px rgba(0, 0, 0, 0.4);
+    position: relative;
+    display: inline-block;
+
+}
+.btn {
+    color: white;
+}
+.fillout {
+    color: whitesmoke;
+}
